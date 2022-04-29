@@ -45,7 +45,10 @@ class DicesState extends State<Dices> {
               },
               child: const Text(
                 'Click to generate a random number',
-                style: TextStyle(fontSize: 20, color: Colors.black),
+                style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.normal,
+                    color: Colors.black),
               ),
             ),
           ]),
